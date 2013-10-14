@@ -14,10 +14,15 @@ The current release under development is 0.6-Snapshot.
 
 breeze-viz is primarily maintained by @MartinSenne from 2013-10-14 on.
 
+Planned features ( for 0.6 )
+----------------------------
+
+* Support for LaTex (axis) labels.
+
 Request for ideas and future features
 -------------------------------------
 
-Please do not hesitate to create an issue in order to let us now **your**
+Please do **not hesitate** to create an issue in order to let us now **your**
 
 * features wishes,
 * requirements,
