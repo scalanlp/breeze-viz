@@ -27,5 +27,5 @@ Please do **not hesitate** to
 * edit the Wiki page ( https://github.com/scalanlp/breeze-viz/wiki ) or
 * create an issue 
 
-* in order to let us now **your** features wishes, requirements, ideas.
+in order to let us now **your** features wishes, requirements, ideas.
 
