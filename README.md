@@ -22,8 +22,10 @@ Planned features ( for 0.6 )
 Request for ideas and future features
 -------------------------------------
 
-Please do **not hesitate** to create an issue in order to let us now **your**
+Please do **not hesitate** to 
 
-* features wishes,
-* requirements,
-* ideas.
+* edit the Wiki page ( https://github.com/scalanlp/breeze-viz/wiki ) or
+* create an issue 
+
+* in order to let us now **your** features wishes, requirements, ideas.
+
