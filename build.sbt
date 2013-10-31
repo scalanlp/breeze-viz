@@ -1,6 +1,6 @@
 name := "breeze-viz"
 
-version := "0.5"
+version := "0.5.2"
 
 organization := "org.scalanlp"
 
@@ -20,7 +20,7 @@ libraryDependencies ++= Seq(
     // "org.apache.xmlgraphics" % "batik-dom" % "1.7",    // for svg gen
     // "org.apache.xmlgraphics" % "batik-svggen" % "1.7", // for svg gen
     "com.lowagie" % "itext" % "2.1.5" intransitive(),  // for pdf gen
-    "org.scalanlp" %% "breeze" % "0.5"
+    "org.scalanlp" %% "breeze" % "0.5.2"
 )
 
 libraryDependencies <<= (scalaVersion, libraryDependencies) { (sv, deps) =>
@@ -63,6 +63,11 @@ pomExtra := (
       <connection>scm:git:git@github.com:dlwh/breeze-viz.git</connection>
     </scm>
     <developers>
+      <developer>
+        <id>MartinSenne</id>
+        <name>Martin Senne</name>
+        <url>http://martin-senne.de</url>
+      </developer>
       <developer>
         <id>dlwh</id>
         <name>David Hall</name>
