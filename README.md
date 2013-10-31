@@ -5,7 +5,27 @@ Visualization library backed by Breeze and JFreeChart.
 
 See https://github.com/scalanlp/breeze/wiki/Quickstart for documentation.
 
-I (@dlwh) would like to no longer maintain this library. If someone wants to take it over, I would be very much appreciate it! You can do whatever you want to it:
-rename it, rework it, whatever. Ideally you'd keep it based on Breeze, and I can help with any problems you come across!
+Release and maintenance
+-----------------------
 
-The current release is 0.5
+The current release of breeze-viz is 0.5.2, depending on breeze 0.5.2.
+
+The current release under development is 0.6-Snapshot.
+
+breeze-viz is primarily maintained by @MartinSenne from 2013-10-14 on.
+
+Planned features ( for 0.6 )
+----------------------------
+
+* Support for LaTex (axis) labels.
+
+Request for ideas and future features
+-------------------------------------
+
+Please do **not hesitate** to 
+
+* edit the Wiki page ( https://github.com/scalanlp/breeze-viz/wiki ) or
+* create an issue 
+
+in order to let us now **your** features wishes, requirements, ideas.
+

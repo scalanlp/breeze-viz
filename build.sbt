@@ -68,11 +68,6 @@ pomExtra := (
         <name>Martin Senne</name>
         <url>http://martin-senne.de</url>
       </developer>
-      <developer>
-        <id>dlwh</id>
-        <name>David Hall</name>
-        <url>http://cs.berkeley.edu/~dlwh/</url>
-      </developer>
     </developers>)
 
 
