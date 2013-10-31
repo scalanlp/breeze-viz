@@ -8,7 +8,7 @@ See https://github.com/scalanlp/breeze/wiki/Quickstart for documentation.
 Release and maintenance
 -----------------------
 
-The current release is 0.5.
+The current release of breeze-viz is 0.5.2, depending on breeze 0.5.2.
 
 The current release under development is 0.6-Snapshot.
 
