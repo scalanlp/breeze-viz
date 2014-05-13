@@ -10,7 +10,7 @@ Release and maintenance
 
 The current release is 0.5.1
 
-The current release under development is 0.6-Snapshot.
+The current release under development is 0.8-Snapshot.
 
 breeze-viz is primarily maintained by @MartinSenne from 2013-10-14 on.
 
