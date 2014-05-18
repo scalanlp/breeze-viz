@@ -4,7 +4,9 @@ version := "0.8-SNAPSHOT"
 
 organization := "org.scalanlp"
 
-scalaVersion := "2.10.3"
+scalaVersion := "2.11.0"
+
+crossScalaVersions  := Seq("2.11.0", "2.10.3")
 
 resolvers ++= Seq(
   "ScalaNLP Maven2" at "http://repo.scalanlp.org/repo",
@@ -30,8 +32,8 @@ libraryDependencies <<= (scalaVersion, libraryDependencies) { (sv, deps) =>
       (deps :+ ("org.scalatest" % "scalatest" % "1.3" % "test")
             :+ ("org.scala-tools.testing" % "scalacheck_2.8.1" % "1.8" % "test"))
     case _       =>
-     (deps :+ ("org.scalacheck" %% "scalacheck" % "1.10.0" % "test")
-           :+ ("org.scalatest" %% "scalatest" % "2.0.M5b" % "test"))
+     (deps :+ ("org.scalacheck" %% "scalacheck" % "1.11.4" % "test")
+           :+ ("org.scalatest" %% "scalatest" % "2.1.6" % "test"))
   }
 }
 
@@ -45,8 +47,7 @@ scalacOptions ++= Seq("-deprecation", "-language:_", "-optimize")
 
 javaOptions += "-Xmx2g"
 
-
-addCompilerPlugin("org.scala-lang.plugins" % "macro-paradise" % "2.0.0-SNAPSHOT" cross CrossVersion.full)
+addCompilerPlugin("org.scalamacros" % "paradise" % "2.0.0" cross CrossVersion.full)
 
 pomExtra := (
     <url>http://scalanlp.org/</url>
