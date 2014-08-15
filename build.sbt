@@ -1,12 +1,12 @@
 name := "breeze-viz"
 
-version := "0.8"
+version := "0.9"
 
 organization := "org.scalanlp"
 
-scalaVersion := "2.11.0"
+scalaVersion := "2.11.1"
 
-crossScalaVersions  := Seq("2.11.0", "2.10.3")
+crossScalaVersions  := Seq("2.11.1", "2.10.3")
 
 resolvers ++= Seq(
   "ScalaNLP Maven2" at "http://repo.scalanlp.org/repo",
@@ -21,7 +21,7 @@ libraryDependencies ++= Seq(
     // "org.apache.xmlgraphics" % "batik-dom" % "1.7",    // for svg gen
     // "org.apache.xmlgraphics" % "batik-svggen" % "1.7", // for svg gen
     "com.lowagie" % "itext" % "2.1.5" intransitive(),  // for pdf gen
-    "org.scalanlp" %% "breeze" % "0.8"
+    "org.scalanlp" %% "breeze" % "0.9"
 )
 
 libraryDependencies <<= (scalaVersion, libraryDependencies) { (sv, deps) =>
