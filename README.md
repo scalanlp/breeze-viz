@@ -5,6 +5,24 @@ Visualization library backed by Breeze and JFreeChart.
 
 See https://github.com/scalanlp/breeze/wiki/Quickstart for documentation.
 
+Installation
+------------
+- clone the repository: `git clone git@github.com:scalanlp/breeze-viz.git`
+- run sbt: `$ sbt`
+- publish locally: `sbt> publish-local`
+
+Add `breeze-viz` dependency to your project:
+```scala
+libraryDependencies  ++= Seq(
+  // other dependencies here
+  "org.scalanlp" %% "breeze" % "0.10",
+  // native libraries are not included by default. add this if you want them (as of 0.7)
+  // native libraries greatly improve performance, but increase jar sizes.
+  "org.scalanlp" %% "breeze-natives" % "0.10",
+  "org.scalanlp" %% "breeze-viz" % "0.10"
+)
+```
+
 Release and maintenance
 -----------------------
 
