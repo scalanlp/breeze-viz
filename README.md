@@ -1,3 +1,9 @@
+# Breeze Viz has moved back into the main Breeze Repo
+
+github.com/scalanlp/breeze
+
+
+
 breeze-viz
 =============
 
