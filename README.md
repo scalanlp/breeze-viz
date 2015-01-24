@@ -1,6 +1,6 @@
 # Breeze Viz has moved back into the main Breeze Repo
 
-github.com/scalanlp/breeze
+https://github.com/scalanlp/breeze
 
 
 
